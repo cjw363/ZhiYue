@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list_item_selector"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.cjw.zhiyue.ui.view.libs.RatioLayout
+            xmlns:c="http://schemas.android.com/apk/res/com.cjw.zhiyue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            c:ratio="1.1" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/iv_recom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_recom_list_item"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:clickable="false"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/bt_playall_normal" />
+            </RelativeLayout>
+        </com.cjw.zhiyue.ui.view.libs.RatioLayout>
+
+        <TextView
+            android:id="@+id/tv_recom_songname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="---"
+            android:textColor="#d000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_recom_songer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="--"
+            android:textColor="#a000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

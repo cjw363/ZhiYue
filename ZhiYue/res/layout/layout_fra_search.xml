@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_search_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#47CAFF"
+        android:padding="8dp"
+        >
+        <EditText 
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="36dp"
+            android:layout_marginLeft="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/bg_et_search"
+            android:textSize="16sp"
+            android:textColor="#8000"
+            android:hint="歌曲，歌手，关键字"
+            />
+        <ImageButton 
+            android:id="@+id/ib_search"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/bt_titlebar_search_normal"
+            android:background="@drawable/bg_search_selector"
+            />
+    </LinearLayout>
+
+</LinearLayout>

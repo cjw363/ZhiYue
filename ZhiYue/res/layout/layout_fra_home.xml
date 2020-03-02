@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_layout_home_local" />
+
+    <include layout="@layout/include_layout_home_recent_play" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recent_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <include layout="@layout/include_layout_home_download" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/downl_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <include layout="@layout/include_layout_home_like" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/like_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tv_time_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="#d000" />
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:progressDrawable="@drawable/bg_seekbar"
+            android:thumb="@drawable/bg_thumb"
+            android:maxHeight="1dp"
+            android:minHeight="1dp"
+            android:focusable="true"  
+             />
+
+        <TextView
+            android:id="@+id/tv_time_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03:25"
+            android:textColor="#d000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageButton
+            android:id="@+id/ib_previous"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bt_playpage_button_previous_normal_new" />
+
+        <ImageButton
+            android:id="@+id/ib_play"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ib_detail_play_selector" />
+
+        <ImageButton
+            android:id="@+id/ib_next"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bt_playpage_button_next_normal_new" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bt_playpage_button_like_normal_new" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bt_playpage_order_normal_new" />
+
+        <ImageButton
+            android:id="@+id/ib_download"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bt_playpage_button_download_normal_new" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/bt_playpage_button_share_normal_new" />
+
+        <ImageButton
+            android:id="@+id/ib_menu"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bt_playpage_button_list_normal_new" />
+    </LinearLayout>
+
+</LinearLayout>

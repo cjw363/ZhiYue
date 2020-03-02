@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_list_item_selector"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/iv_song_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_song_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:text="夜空中最亮的星"
+        android:textColor="#d000"
+        android:textSize="15sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tv_songer"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:text="逃跑计划"
+        android:textColor="#a000"
+        android:textSize="12sp"
+        android:typeface="sans" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+
+        <RatingBar
+            android:id="@+id/rb_star"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginTop="8dp"
+            android:isIndicator="true"
+            android:progressDrawable="@drawable/bg_ratingbar"
+            android:rating="5" />
+
+        <TextView
+            android:id="@+id/tv_star"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_toRightOf="@id/rb_star"
+            android:layout_margin="2dp"
+            android:layout_alignBottom="@id/rb_star"
+            android:text="9.0"
+            android:textColor="#a000" />
+    </RelativeLayout>
+
+</LinearLayout>

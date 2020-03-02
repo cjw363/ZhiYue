@@ -1,0 +1,47 @@
+<resources>
+
+    <!--
+        Base application theme for API 21+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 21+ devices.
+    -->
+    <style name="AppTheme" parent="android:Theme.Material">
+        <!-- API 21 theme customizations can go here. -->
+        
+            <!-- 状态栏颜色，会被statusBarColor效果覆盖-->
+        <item name="android:colorPrimaryDark">@color/status_cyan</item>
+        <!-- 状态栏颜色，继承自colorPrimaryDark -->
+        <item name="android:statusBarColor">@color/status_cyan</item>
+        <!-- actionBar颜色 -->
+        <item name="android:colorPrimary">@color/action_cyan</item>
+        <!-- 背景颜色 -->
+        <item name="android:windowBackground">@color/window_bg_cyan</item>
+        <!-- 底部栏颜色 -->
+        <item name="android:navigationBarColor">@color/navigation_cyan</item>
+
+        <!-- ListView的分割线颜色，switch滑动区域色-->
+        <item name="android:colorForeground">@color/fg_cyan</item>
+        <!-- popMenu的背景色 -->
+        <item name="android:colorBackground">@color/bg_cyan</item>
+
+        <!-- 控件默认颜色 ，效果会被colorControlActivated取代  -->
+        <item name="android:colorAccent">@color/control_activated_cyan</item>
+
+        <!-- 控件默认时颜色  -->
+        <item name="android:colorControlNormal">@color/control_normal_cyan</item>
+        <!-- 控件按压时颜色，会影响水波纹效果，继承自colorAccent  -->
+        <item name="android:colorControlHighlight">@color/control_highlight_cyan</item>
+        <!-- 控件选中时颜色 -->
+        <item name="android:colorControlActivated">@color/control_activated_cyan</item>
+        <!-- Button的默认背景 -->
+        <item name="android:colorButtonNormal">@color/button_normal_cyan</item>
+
+        <!-- Button，textView的文字颜色  -->
+        <item name="android:textColor">@color/black_text</item>
+        <!-- RadioButton checkbox等控件的文字 -->
+        <item name="android:textColorPrimaryDisableOnly">@color/black_text</item>
+        <!-- actionBar的标题文字颜色 -->
+        <item name="android:textColorPrimary">@color/white_text</item>
+    </style>
+
+</resources>

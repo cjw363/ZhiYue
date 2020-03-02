@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">     
+ 
+    <!-- 按下状态 -->
+    <item
+        android:state_focused="true"
+        android:state_pressed="true" >  
+        	<shape android:shape="oval">
+        	    <solid android:color="#16A8FF"/>
+        	    <stroke android:color="#8847CAFF" android:width="0.2dp"/>
+        	    <size android:width="18dp" android:height="18dp"/>
+        	</shape>
+        </item>   
+        
+    <!-- 普通无焦点状态 -->
+    <item
+        android:state_focused="false"
+        android:state_pressed="false" >  
+        	<shape android:shape="oval">
+        	    <solid android:color="#16A8FF"/>
+        	    <stroke android:color="#8847CAFF" android:width="0.2dp"/>
+        	    <size android:width="12dp" android:height="12dp"/>
+        	</shape>
+        </item>       
+            
+    <!-- 有焦点状态 -->
+    <item
+        android:state_focused="true"
+        android:state_pressed="false" >  
+        <shape android:shape="oval">
+        	    <solid android:color="#16A8FF"/>
+        	    <stroke android:color="#8847CAFF" android:width="0.2dp"/>
+        	    <size android:width="12dp" android:height="12dp"/>
+        	</shape>
+    </item>   
+    
+    <!-- 有焦点 -->
+     <item
+        android:state_focused="false"
+        android:state_pressed="true" >  
+        <shape android:shape="oval">
+        	    <solid android:color="#16A8FF"/>
+        	    <stroke android:color="#8847CAFF" android:width="0.2dp"/>
+        	    <size android:width="18dp" android:height="18dp"/>
+        	</shape>
+    </item>   
+</selector>

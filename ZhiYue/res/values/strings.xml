@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">知悦</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="tab_names">
+        <item>推荐</item> 
+        <item>榜单</item> 
+        <item>我的</item> 
+        <item>搜索</item> 
+        <item>下载</item> 
+    </string-array>
+    
+    <string-array name="toolbar_names">
+        <item>音乐</item> 
+        <item>知乎</item> 
+        <item>娱乐</item> 
+    </string-array>
+    
+    <string-array name="search_recom_names">
+        <item>薛之谦</item> 
+        <item>火星人来过</item> 
+        <item>陈奕迅</item> 
+        <item>邓紫棋</item> 
+        <item>夜空中最亮的星</item> 
+        <item>周杰伦</item> 
+        <item>告白气球</item> 
+        <item>演员</item> 
+        <item>谢安琪</item> 
+        <item>tfboys</item> 
+        <item>追梦赤子心</item> 
+        <item>24K Magic</item> 
+    </string-array>
+</resources>

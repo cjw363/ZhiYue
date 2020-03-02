@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.cjw.zhiyue.ui.view.libs.RatioLayout
+        xmlns:c="http://schemas.android.com/apk/res/com.cjw.zhiyue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        c:ratio="2.0"
+        >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView 
+                android:id="@+id/iv_detail_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                />
+            <TextView 
+                android:id="@+id/tv_detail_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="8dp"
+                android:textSize="12sp"
+                android:textColor="#fff"
+                />
+             <ImageButton 
+                android:id="@+id/ib_detail_back"
+                android:layout_margin="15dp"
+                android:layout_width="28dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_back_normal"
+                />
+        </RelativeLayout>
+    </com.cjw.zhiyue.ui.view.libs.RatioLayout>
+
+</LinearLayout>
